@@ -3,7 +3,7 @@ using Emgu.CV.CvEnum;
 using Emgu.CV.Face;
 using Emgu.CV.Structure;
 using Emgu.CV.Util;
-using Microsoft.VisualBasic;  // For Interaction.InputBox
+using Microsoft.VisualBasic;  
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
