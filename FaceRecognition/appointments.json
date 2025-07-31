@@ -1,0 +1,10 @@
+[
+  {
+    "Name": "Alice",
+    "AppointmentTime": "2025-08-01T10:00:00"
+  },
+  {
+    "Name": "Bob",
+    "AppointmentTime": "2025-08-01T11:00:00"
+  }
+]
