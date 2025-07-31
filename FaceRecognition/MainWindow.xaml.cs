@@ -161,9 +161,7 @@ namespace FaceRecognitionWPF
                 }
                 else
                 {
-                    // Unknown face - do interactive appointment check
-
-                    // Pause camera and timer during interaction
+                    
                     _timer.Stop();
                     _capture.Pause();
 
@@ -185,7 +183,7 @@ namespace FaceRecognitionWPF
                         }
                         else
                         {
-                            // Verify face matches stored known face for that name
+                           
                             bool faceMatch = VerifyFaceMatch(faceImg, name);
                             if (faceMatch)
                             {
@@ -200,7 +198,7 @@ namespace FaceRecognitionWPF
                         }
                     }
 
-                    // Resume camera and timer
+                    
                     _capture.Start();
                     _timer.Start();
                 }
